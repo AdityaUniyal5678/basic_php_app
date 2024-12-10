@@ -1,0 +1,21 @@
+MVC  
+
+
+M ==> Model 
+V ==> Views
+C ==> Controllers
+
+
+
+Application loads Views which interacts with Controllers and controllers interact with models to fetch data from database
+
+
+
+Model deals with database queries
+Controllers deals with Business logic
+Views is just for View / templates / pages
+
+MVC is totally developed using OOPs concept 
+
+
+Object oriented programming language 
