@@ -1,5 +1,5 @@
 <?php
-require_once 'models/Db.phpAppModel.php';
+require_once 'models/AppModel.php';
 require_once 'models/Db.php';
 require_once 'controllers/AppController.php';
 $objApp = new AppController();
@@ -8,7 +8,6 @@ $conn = $objDb->getConnection();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,12 +25,10 @@ $conn = $objDb->getConnection();
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
 </head>
-
 <body class="bg-white">
-
-    <?php require_once 'views/elements/header.php'; ?>
-    <?php require_once 'views/layouts/main.php'; ?>
-    <?php require_once 'views/elements/footer.php'; ?>
+    <?php require_once 'views/elements/header.php';?>
+    <?php require_once 'views/layouts/main.php';?>
+    <?php require_once 'views/elements/footer.php';?>
 </body>
 
 </html>
